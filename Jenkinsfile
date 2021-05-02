@@ -1,7 +1,6 @@
 node {
-    def app
     agent any
-  
+    // def app
     stage('Pulling Repository') {
         checkout scm
     }
